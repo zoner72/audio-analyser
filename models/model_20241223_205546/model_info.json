@@ -1,0 +1,36 @@
+{
+    "training_date": "2024-12-23 20:55:23",
+    "architecture": {
+        "input_shape": 50,
+        "num_classes": 50,
+        "layers": [
+            "Dense - Parameters: 6528",
+            "BatchNormalization - Parameters: 512",
+            "Dropout - Parameters: 0",
+            "Dense - Parameters: 12384",
+            "BatchNormalization - Parameters: 384",
+            "Dropout - Parameters: 0",
+            "Dense - Parameters: 6208",
+            "BatchNormalization - Parameters: 256",
+            "Dropout - Parameters: 0",
+            "Dense - Parameters: 3250"
+        ]
+    },
+    "training_params": {
+        "batch_size": 16,
+        "initial_learning_rate": 0.0005,
+        "l2_regularization": 0.01,
+        "dropout_rate": 0.4
+    },
+    "performance": {
+        "final_loss": 1.8326308727264404,
+        "final_accuracy": 0.6274999976158142,
+        "best_val_accuracy": 0.6424999833106995,
+        "best_epoch": 98
+    },
+    "dataset_info": {
+        "total_samples": 2000,
+        "training_samples": 1600,
+        "validation_samples": 400
+    }
+}

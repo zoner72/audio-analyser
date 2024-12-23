@@ -1,7 +1,7 @@
-PyQt5
-numpy
-pandas
-scikit-learn
-librosa
-soundfile
-joblib
+PyQt5==5.15.9
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+librosa==0.10.1
+soundfile==0.12.1
+joblib==1.3.1
