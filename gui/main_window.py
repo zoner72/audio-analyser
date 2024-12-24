@@ -1,3 +1,4 @@
+# gui/main_window.py
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFrame, QPushButton
 from .frames.analysis_frame import AnalysisFrame
 from .frames.training_frame import TrainingFrame
